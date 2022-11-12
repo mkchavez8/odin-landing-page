@@ -3,8 +3,8 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    background-image: url("msg_night.jpeg");
 }
-/* MSG photo as site background potentially? */
 
 .header {
     background-color: black;
@@ -39,25 +39,28 @@ img[src="./UFC_logo.png"] {
     color: white;
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 10px;
+    justify-content: space-evenly;
 }
 
 .top_content {
-    width: 500px;
+    width: 600px;
 }
 
 img[src="./281_art.jpg"] {
     height: auto;
-    width: 400px;
-    margin: 40px;
+    width: 600px;
+    margin: 30px;
     border-radius: 40px;
 }
 
 .button_ppv {
     margin-top: 20px;
-    padding: 5px 20px;
+}
+
+.button_ppv,
+.button_bottom {
     border-radius: 5px;
+    padding: 5px 20px;
     background-color: rgb(199, 158, 23);
     border: none;
 }
@@ -119,3 +122,21 @@ img[src="./281_art.jpg"] {
     padding-bottom: 100px;
 }
 
+.bottom {
+    margin: 40px 400px;
+    background-color: grey;
+    padding: 30px 40px;
+    border-radius: 10px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    background-color: black;
+    color: gray;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
